@@ -1,6 +1,6 @@
-+ Vue3 
-+ Typescript 
-+ Vite
-+ pinia
-+ naive-ui
-+ vue-router4
+- Vue3
+- Typescript
+- Vite
+- pinia
+- naive-ui
+- vue-router4
