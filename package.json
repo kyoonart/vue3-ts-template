@@ -43,16 +43,12 @@
     "vite-plugin-compression": "^0.5.1",
     "vue-tsc": "^0.29.8"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{js,jsx,vue,ts,tsx}": [
       "yarn lint",
       "prettier --write",
       "git add"
-    ]
+    ],
+    "*.{ts,tsx,vue,js,jsx}": "eslint --cache --fix"
   }
 }
